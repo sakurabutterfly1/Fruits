@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header ul{
+    background-color: greenyellow;
+    list-style: none;
+}
+.header ul li{
+    float: left;
+    text-align: center;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+
+.header::after{
+    content: " ";
+    display: table;
+    clear: both;
+} 
+
+.content::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+p{
+    padding: 15px;
+}
+
+img{
+    float: right;
+}
